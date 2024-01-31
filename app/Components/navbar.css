@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.Rightbar{
+    display: flex;
+    align-items: center;
+}
+.logoContainer{
+    display: flex;
+    align-self: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.logostyle{
+    width: 29px;
+    height: 29px;
+}
+.logonamestyle{
+    width: 50px;
+    height: 23px;
+    margin-left: 10px;
+}
+.logoContainerPartTwo{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.homestyle{
+    width: 20px;
+    height: 20px;
+
+}
+.searchstyle{
+    width: 22px;
+    height: 22px;
+}
+
+.Centerbar{
+    margin-right: 10%;
+    margin-top: 16px;
+    margin-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Centerbar:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-right: 10%;
+    margin-top: 16px;
+    margin-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.SearchBox{
+    width: 100vh;
+    border: none;
+    background-color: black;
+    outline: none;
+}
+
+.Leftbar{
+    margin-right: 40px;
+
+}
