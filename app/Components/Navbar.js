@@ -11,6 +11,7 @@ import addicon from "/ImageForReddit/icons8-plus-24.png"
 import ads from "/ImageForReddit/ads.png"
 import popular from "/ImageForReddit/popular.png"
 import profileicon from "/ImageForReddit/profile.png"
+import showmore from "/ImageForReddit/down.png"
 export default function Navbar() {
   return (
     <div className='main'>
@@ -89,9 +90,16 @@ export default function Navbar() {
               className='profileIcon'
               alt="Picture of the author"
         />
+        <div style={{marginTop:4}}>
+          <p style={{fontSize:11}}>Kevin</p>
+          <p style={{fontSize:11}}>362 Nandi</p>
+        </div>
         <div>
-          <p>Kevin</p>
-          <p>362 Nandi</p>
+        <Image
+              src={showmore}
+              className='showmore'
+              alt="Picture of the author"
+        />
         </div>
         </div>
       </div>

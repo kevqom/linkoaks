@@ -1,0 +1,19 @@
+.MainSubhome{
+    display: flex;
+    margin-top: 10px;
+}
+
+.subhomeLeft{
+    flex: 1.3;
+
+}
+
+.MainSubhomeCenter{
+    flex: 2;
+
+}
+
+.subhomeright{
+    flex: 2;
+
+}
