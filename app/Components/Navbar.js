@@ -5,6 +5,12 @@ import logo from "/ImageForReddit/Reddit.png"
 import logoname from "/ImageForReddit/namelogo.png"
 import Homelogo from "/ImageForReddit/home.png"
 import searchIcon from "/ImageForReddit/search.png"
+import messageimage from "/ImageForReddit/icons8-message-50.png"
+import notification from "/ImageForReddit/icons8-notification-50.png"
+import addicon from "/ImageForReddit/icons8-plus-24.png"
+import ads from "/ImageForReddit/ads.png"
+import popular from "/ImageForReddit/popular.png"
+import profileicon from "/ImageForReddit/profile.png"
 export default function Navbar() {
   return (
     <div className='main'>
@@ -45,41 +51,49 @@ export default function Navbar() {
         </div>      
         </div>
       <div className='Leftbar'>
-        <div>
-
+        <div style={{display:'flex', alignItems:"center", justifyContent:"space-between"}}>
         <Image
-              src={searchIcon}
-              className='logostyle'
+              src={popular}
+              className='popularicon'
               alt="Picture of the author"
-          />
+        />
           
         <Image
-              src={searchIcon}
-              className='logostyle'
+              src={messageimage}
+              className='message'
               alt="Picture of the author"
-          />
+        />
 
         <Image
-              src={searchIcon}
-              className='logostyle'
+              src={notification}
+              className='notification'
               alt="Picture of the author"
-          />
+        />
 
         <Image
-              src={searchIcon}
-              className='logostyle'
+              src={addicon}
+              className='addcontent'
               alt="Picture of the author"
-          />
+        />
 
         <Image
-              src={searchIcon}
-              className='logostyle'
+              src={ads}
+              className='ads'
               alt="Picture of the author"
-          />
-        
+        />
 
         </div>
-        <div></div>
+        <div style={{display:'flex', alignItems:'center'}}>
+        <Image
+              src={profileicon}
+              className='profileIcon'
+              alt="Picture of the author"
+        />
+        <div>
+          <p>Kevin</p>
+          <p>362 Nandi</p>
+        </div>
+        </div>
       </div>
     </div>
   )
