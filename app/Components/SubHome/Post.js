@@ -7,6 +7,7 @@ import Newicon from "/ImageForReddit/icons8-new-50.png"
 import Topicon from "/ImageForReddit/icons8-up-80.png"
 import showmore from "/ImageForReddit/icons8-dot-67.png"
 import Card from "/ImageForReddit/card.png"
+import profile from "/ImageForReddit/profile.png"
 export default function Post() {
   return (
     <div>
@@ -63,6 +64,15 @@ export default function Post() {
 
         </div>
         <div className='postContainerRightbar'>
+          <div style={{display:"flex", alignItems:"center"}}>
+              <Image
+                      src={profile}
+                      className='profile'
+                      alt="Picture of the author"
+                />
+                <p style={{marginLeft:0, fontSize:12}}>r/StableDiffusion</p>
+                <p style={{marginLeft:10, fontSize:12, color:"#808080"}}>Posted by u/Z3oman</p>
+          </div>
         </div>
 
       </div>

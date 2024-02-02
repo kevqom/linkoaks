@@ -23,9 +23,14 @@
 
 .postContainerLeftbar{
     flex: 0.3;
-    background-color: aquamarine;
 }
 .postContainerRightbar{
     flex: 3;
-    background-color: aliceblue;
+}
+.postContainer:hover{
+    border: 1px solid rgb(154, 154, 154);
+}
+.profile{
+    width: 26px;
+    height: 26px;
 }
