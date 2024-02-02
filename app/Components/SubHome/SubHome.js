@@ -10,6 +10,11 @@ export default function SubHome() {
         <div className='MainSubhomeCenter'>
             <Contentpost/>
             <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+
         </div>
         <div className='subhomeright'>
         </div>

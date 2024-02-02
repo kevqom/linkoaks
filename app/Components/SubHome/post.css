@@ -19,18 +19,26 @@
 .PostContainer{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .postContainerLeftbar{
     flex: 0.3;
+    margin-bottom: 46%;
 }
 .postContainerRightbar{
     flex: 3;
 }
-.postContainer:hover{
-    border: 1px solid rgb(154, 154, 154);
+.PostContainer:hover{
+    outline: 0.3px solid rgb(154, 154, 154);
+    /*padding: 5px;*/
 }
 .profile{
     width: 26px;
     height: 26px;
+}
+.postImage{
+    width: 90%;
+    height:40vh;
+    object-fit: contain;
 }
