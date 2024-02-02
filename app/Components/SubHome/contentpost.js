@@ -3,6 +3,7 @@ import "./contentpost.css"
 import Image from 'next/image'
 import profile from "/ImageForReddit/profile.png"
 import imageIcons from "/ImageForReddit/icons8-image-50.png"
+import Linkicons from "/ImageForReddit/link.png"
 export default function contentpost() {
   return (
     <div className='MainContentPost'>
@@ -17,11 +18,11 @@ export default function contentpost() {
               className='imageIconsContent'
               alt="Picture of the author"
         />
-        {/*<Image
-              src={profile}
-              className='profileContent'
+        <Image
+              src={Linkicons}
+              className='linkIcons'
               alt="Picture of the author"
-  />*/}
+        />
         
     </div>
   )
