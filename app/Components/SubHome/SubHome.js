@@ -2,6 +2,7 @@ import React from 'react'
 import "./subhome.css"
 import Contentpost from './contentpost'
 import Post from './Post'
+import Subcat from './subcat'
 export default function SubHome() {
   return (
     <div className='MainSubhome'>
@@ -9,6 +10,7 @@ export default function SubHome() {
         </div>
         <div className='MainSubhomeCenter'>
             <Contentpost/>
+            <Subcat/>
             <Post/>
             <Post/>
             <Post/>
