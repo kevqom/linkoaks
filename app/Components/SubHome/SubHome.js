@@ -2,7 +2,7 @@ import React from 'react'
 import "./subhome.css"
 import Contentpost from './contentpost'
 import Post from './Post'
-import Subcat from './subcat'
+import Subcat from './Subcat'
 export default function SubHome() {
   return (
     <div className='MainSubhome'>
