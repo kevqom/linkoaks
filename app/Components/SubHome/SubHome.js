@@ -3,6 +3,8 @@ import "./subhome.css"
 import Contentpost from './contentpost'
 import Post from './Post'
 import Subcat from './Subcat'
+import Rightitempart1 from '../RightItems/Rightitempart1'
+import Rightitempart2 from '../RightItems/Rightitempart2'
 export default function SubHome() {
   return (
     <div className='MainSubhome'>
@@ -19,6 +21,8 @@ export default function SubHome() {
 
         </div>
         <div className='subhomeright'>
+          <Rightitempart1/>
+          <Rightitempart2/>
         </div>
     </div>
   )
